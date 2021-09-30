@@ -2,6 +2,13 @@
   "name": "cwssjs",
   "version": "1.0.0",
   "description": "CWSS Vector Calculator",
+  "keywords": [
+    "cwss",
+    "common weakness scoring system",
+    "cvss",
+    "ssvc",
+    "security"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
