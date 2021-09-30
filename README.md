@@ -50,22 +50,24 @@ final | Final Score at single precision (i.e. 20.1) as a string |
 Vector Object contains the entire breakdown of the CWSS Vector string that was
 passed in to `compute\_vector()` and takes the format of:
 ```javascript
-TI: { code: 'H', weight: 0.9 },
-AP: { code: 'A', weight: 1 },
-AL: { code: 'A', weight: 1 },
-IC: { code: 'N', weight: 1 },
-FC: { code: 'T', weight: 1 },
-RP: { code: 'L', weight: 0.9 },
-RL: { code: 'A', weight: 1 },
-AV: { code: 'I', weight: 1 },
-AS: { code: 'N', weight: 1 },
-IN: { code: 'T', weight: 0.9 },
-SC: { code: 'A', weight: 1 },
-BI: { code: 'C', weight: 1 },
-DI: { code: 'H', weight: 1 },
-EX: { code: 'H', weight: 1 },
-EC: { code: 'N', weight: 1 },
-P: { code: 'NA', weight: 1 }
+{
+    TI: { code: 'H', weight: 0.9 },
+    AP: { code: 'A', weight: 1 },
+    AL: { code: 'A', weight: 1 },
+    IC: { code: 'N', weight: 1 },
+    FC: { code: 'T', weight: 1 },
+    RP: { code: 'L', weight: 0.9 },
+    RL: { code: 'A', weight: 1 },
+    AV: { code: 'I', weight: 1 },
+    AS: { code: 'N', weight: 1 },
+    IN: { code: 'T', weight: 0.9 },
+    SC: { code: 'A', weight: 1 },
+    BI: { code: 'C', weight: 1 },
+    DI: { code: 'H', weight: 1 },
+    EX: { code: 'H', weight: 1 },
+    EC: { code: 'N', weight: 1 },
+    P: { code: 'NA', weight: 1 }
+}
 ```
 Additional contents may be visible in the object. Do not rely on their
 existence.
