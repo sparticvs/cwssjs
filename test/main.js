@@ -1,5 +1,5 @@
 const CWSS = require('../lib/main.js');
-const assert = require('assert/strict');
+const assert = require('assert').strict;
 
 const TEST_CASES = [
     // Example from Section 4.1 (fixed, BI had wrong value)
