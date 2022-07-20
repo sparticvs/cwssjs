@@ -27,8 +27,8 @@
   "homepage": "https://github.com/sparticvs/cwssjs#readme",
   "devDependencies": {
     "eslint": "8.20.0",
-    "eslint-config-google": "^0.14.0",
-    "mocha": "^7.2.0",
-    "nyc": "^15.1.0"
+    "eslint-config-google": "0.14.0",
+    "mocha": "7.2.0",
+    "nyc": "15.1.0"
   }
 }
