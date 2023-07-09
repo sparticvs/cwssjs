@@ -23,7 +23,7 @@ jobs:
       # Generates a BoM and uploads it to OWASP Dependency Track
       - name: Generates BoM and upload to OWASP DTrack
         id: riskscoreFromDT
-        uses:  Quobis/action-owasp-dependecy-track-check@v1.2
+        uses:  Quobis/action-owasp-dependecy-track-check@1.2
         with:
           url: 'https://dt-api-popebp.staging.cryptosoft.com/'
           key: '${{ secrets.SECRET_OWASP_DT_KEY }}'
