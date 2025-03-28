@@ -2,7 +2,11 @@
 Implementation of CWSS in JavaScript
 
 ## Requirements
+### For Usage
 Node v. 10
+
+### For Testing
+Node v. 16
 
 ## Install
 ```
